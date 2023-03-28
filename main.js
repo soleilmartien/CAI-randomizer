@@ -1,8 +1,6 @@
-
-
 const btn = document.querySelector('button');
 btn.onclick = () => {
-    const index = Math.floor(Math.random()*2600);
+    const index = Math.floor(Math.random()*260000);
     document.getElementById("letitre").innerHTML = 'Please wait... '
     document.getElementById("lartiste").innerHTML = ''
     document.getElementById("lemedium").innerHTML = ''
